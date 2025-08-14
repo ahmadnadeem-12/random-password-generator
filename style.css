@@ -54,6 +54,7 @@ i{
     font-size: 1rem;
     background: transparent;
     outline: 0;
+    width:100%;
 }
 
 button{
@@ -71,3 +72,9 @@ button{
 button:hover {
     background-color:  rgb(17, 204, 142);
 }
+.generate{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
